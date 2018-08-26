@@ -1,0 +1,12 @@
+To connect to a MongoDb.
+
+
+1. Install the library MongoDb.
+
+npm install mongodb --save
+
+
+type const MongoClient = require("mongodb").MongoClient;
+
+
+then MongoClient.connect(#Serverwheryour connection is the port! maybe aws maybe local);
